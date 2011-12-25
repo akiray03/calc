@@ -32,5 +32,5 @@ class Rack::PathInfoRewriter
   end
 end
 
-Handler::FastCGI.run Rack::PathInfoRewriter.new(FluxflexSample::Application)
+Handler::FastCGI.run Rack::PathInfoRewriter.new(Calc::Application)
 
