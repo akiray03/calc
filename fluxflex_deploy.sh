@@ -5,3 +5,4 @@ export PATH=$PATH:/usr/local/rvm/rubies/ruby-1.9.2-p180/bin:$HOME/.gem/ruby/1.9.
 bundle install
 
 rake db:migrate RAILS_ENV=production
+rake assets:precompile
